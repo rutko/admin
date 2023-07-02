@@ -7,3 +7,8 @@ compatibility_date = "2023-04-20"
 
 [site]
   bucket = "./public"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "synca1-db"
+database_id = "f3242c80-2541-4eca-87eb-b3e4304e6ebf"
